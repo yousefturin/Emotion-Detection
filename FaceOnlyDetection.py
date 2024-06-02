@@ -10,7 +10,7 @@ class EmotionDetectorApp:
     def __init__(self, window, window_title):
         self.window = window
         self.window.title(window_title)
-        self.video_source = 1  # Camera index (1 for default camera)
+        self.video_source = 1  # Camera index (1 for default camera) If OS is Windows, change it to 0
         self.vid = MyVideoCapture(self.video_source)
 
         # Create a canvas to display the video feed
