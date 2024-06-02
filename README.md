@@ -37,7 +37,14 @@
 The dataset is stored on the cloud, to download the datasets, follow the steps:
 
 1. Navigate to **datasets** Directory, in each sub-directory there is a **README.md** file that contain the url for the data set.
-2. Navigate to each sub-directory and install the data. **(Only School email will be allowed to access the dataset)**.
+2. Navigate to each sub-directory and install the data.
+
+> 💡 **Only School email will be allowed to access the dataset**.
+
+### Models Installation
+
+The models are stored on the cloud, due to file upload limitations, Please download the models from the README.md file that is located in **`./assets/models`**. or from [here](https://drive.google.com/drive/folders/1Re8a9kwVcoko2DN3PNo52hOrA9cf6Y9T?usp=drive_link)
+> 💡 **Only School email will be allowed to access the Models.**
 
 ## Files Layout
 
