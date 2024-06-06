@@ -37,7 +37,7 @@ class CreateApp:
         self.running = True
 
         # Start video capture
-        self.cap = cv2.VideoCapture(0)
+        self.cap = cv2.VideoCapture(1) # Use 0 for built-in webcam on Windows and 1 for built-in webcam on Mac
 
         # Create Tkinter window
         self.root = tk.Tk()
